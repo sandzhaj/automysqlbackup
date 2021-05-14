@@ -11,3 +11,5 @@ mkdir -p $TARGET_DIR
 chown root.root $TARGET_DIR* -R
 find $TARGET_DIR* -type f -exec chmod 400 {} \;
 find $TARGET_DIR* -type d -exec chmod 700 {} \;
+
+#TEST
